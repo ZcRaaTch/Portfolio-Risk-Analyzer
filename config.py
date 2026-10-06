@@ -102,4 +102,4 @@ def resolve_dates():
 # 6. Report details
 # ---------------------------------------------------------------------------
 REPORT_TITLE = "Portfolio Performance & Risk Analyzer"
-REPORT_AUTHOR = "Anubhav | MBA, Department of Management Studies, IIT Roorkee"
+REPORT_AUTHOR = "Abhinav Awana | MBA, Department of Management Studies, IIT Roorkee"
