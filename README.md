@@ -73,8 +73,8 @@ Python 3.9+, pandas, NumPy, Matplotlib, yfinance, ReportLab, Jupyter, pytest.
 ## How to run
 
 ```bash
-git clone <your-repo-url>
-cd portfolio-risk-analyzer
+git clone https://github.com/ZcRaaTch/Portfolio-Risk-Analyzer.git
+cd Portfolio-Risk-Analyzer
 pip install -r requirements.txt
 
 python main.py                   # download latest 2 years, analyse, write everything to outputs/
