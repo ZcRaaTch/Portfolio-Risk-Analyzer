@@ -1,0 +1,77 @@
+{
+  "period": {
+    "start": "2024-10-07",
+    "end": "2026-10-05",
+    "trading_days": 499,
+    "calendar_years": 1.9931553730321698,
+    "observed_days_per_year": 250.35679945054943
+  },
+  "cleaning": {
+    "rows_raw": 500,
+    "duplicate_dates_removed": 0,
+    "empty_dates_removed": 0,
+    "missing_values_before_fill": {
+      "Reliance Industries": 0,
+      "TCS": 0,
+      "HDFC Bank": 0,
+      "Infosys": 0,
+      "ICICI Bank": 0,
+      "NIFTY 50": 6
+    },
+    "values_forward_filled": 6,
+    "incomplete_dates_removed": 0,
+    "rows_clean": 500,
+    "first_date": "2024-10-07",
+    "last_date": "2026-10-05"
+  },
+  "risk_free_rate": 0.0526,
+  "diversification": {
+    "portfolio_vol": 0.15032194042281338,
+    "weighted_avg_vol": 0.2229645757574896,
+    "diversification_ratio": 1.4832470571518228,
+    "volatility_reduction": 0.3258034828531997,
+    "avg_pairwise_corr": 0.30488873997447385,
+    "max_corr_pair": [
+      "TCS",
+      "Infosys",
+      0.7431573822026312
+    ],
+    "min_corr_pair": [
+      "Infosys",
+      "ICICI Bank",
+      0.13101211603907595
+    ]
+  },
+  "portfolio_max_drawdown": {
+    "max_drawdown": -0.265239950152487,
+    "peak_date": "2024-12-13",
+    "trough_date": "2026-09-30",
+    "recovery_date": null,
+    "days_peak_to_trough": 449
+  },
+  "benchmark_max_drawdown": {
+    "max_drawdown": -0.15181809374299382,
+    "peak_date": "2026-01-02",
+    "trough_date": "2026-03-30",
+    "recovery_date": null,
+    "days_peak_to_trough": 58
+  },
+  "buy_and_hold": {
+    "Cumulative return": -0.20768127686384896,
+    "Annualised return (CAGR)": -0.11091466681413986,
+    "Annualised volatility": 0.1438569438095999,
+    "Max drawdown": -0.2553354945035311,
+    "final_weights": {
+      "Reliance Industries": 0.2203663894132987,
+      "TCS": 0.13444833813660742,
+      "HDFC Bank": 0.2265981438489512,
+      "Infosys": 0.14167721639109646,
+      "ICICI Bank": 0.27690991221004635
+    }
+  },
+  "sector_weights": {
+    "Banking": 0.4,
+    "Information Technology": 0.4,
+    "Energy & Conglomerate": 0.2
+  }
+}

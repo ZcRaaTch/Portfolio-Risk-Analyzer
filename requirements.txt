@@ -1,0 +1,12 @@
+# Tested with: pandas 3.0.6, numpy 2.5.3, matplotlib 3.11.2, yfinance 1.7.0, reportlab 5.0.1
+# Lower bounds are the oldest versions that support every function used.
+pandas>=2.1,<4          # DataFrame.map (used in main.py) needs pandas 2.1+
+numpy>=1.24,<3
+matplotlib>=3.7,<4
+yfinance>=1.0           # Yahoo changes its site often; older yfinance releases break
+reportlab>=4.0,<6       # PDF report
+
+# Notebook and tests
+jupyter
+jinja2                  # needed for pandas table styling in the notebook
+pytest
